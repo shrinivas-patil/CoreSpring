@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>in.shrii</groupId>
   <artifactId>02-IOC_DI_App</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0-RELEASE</version>
   
   
   	<dependencies>
@@ -13,4 +13,5 @@
 		</dependency>
 
 	</dependencies>
+
 </project>
