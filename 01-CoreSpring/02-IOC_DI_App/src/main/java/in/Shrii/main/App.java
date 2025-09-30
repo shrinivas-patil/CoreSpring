@@ -13,8 +13,8 @@ public class App {
 		//BeanFactory factory = new XmlBeanFactory(new ClassPathResource("Beans.xml"));
 
 //		Starting IoC Container
-		ApplicationContext context = new ClassPathXmlApplicationContext("Beam.xml");
-		Car bean = context.getBean(Car.class);
+		ApplicationContext contextBean = new ClassPathXmlApplicationContext("Beam.xml");
+		Car bean = contextBean.getBean(Car.class);
 		bean.drive();
 		
 		
